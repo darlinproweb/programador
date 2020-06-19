@@ -1,0 +1,241 @@
+body{
+    
+    
+}
+
+
+h1 {
+    color: white;
+    /*background-color:red;*/
+    text-align:center;
+    font-family:arial black;
+    border-width:5px;
+    border-color:blue;
+    border-style:solid;
+    font-size:40px;
+    border-radius:20px;
+}
+
+h2 {
+    color:black;
+    font-family:Arial;
+    text-align:center;
+    font-size:25px;
+    
+    
+}
+
+/*img
+{
+    height:500px;
+    display:block;
+    margin:auto;
+    
+    
+}
+*/
+
+h3 {
+    font-size:26px%;
+    color:red;
+    font-family:arial;
+    text-align:center;
+}
+
+h2#portafolio1{
+    color:red;
+    font-size:35px;
+    border-width:5px;
+    border-color:black;
+    border-style:solid;
+   font-family:verdana;
+}
+
+
+div#portafolio{
+    overflow:hidden;
+    flex-direction: column;
+}
+div#home{
+background-image: url('https://get.pxhere.com/photo/mac-laptop-desk-furniture-wall-table-technology-electronic-device-Material-property-computer-personal-computer-computer-desk-netbook-interior-design-glass-1604569.jpg');
+width:100%;
+height:600px;
+background-size:cover;
+position:relative;
+
+display: flex;
+flex-direction: column;
+justify-content:center;
+flex-wrap: wrap;
+}
+div#home:before{
+    content: "";
+    width:100%;
+    min-height:100vh;
+    position:absolute;
+    top:0;
+    left:0;
+    
+   background:aqua;
+   opacity:0.3;
+   
+}
+
+div#home h1, h2, h3{
+   position:relative;
+    
+}
+.trabajo{
+    float:left;
+    margin:1em;
+    padding:1em;
+    height:500px;
+    width:300px;
+    background-color:#D8EAE0;
+}
+#gif1{
+     width:300px;
+     height:auto;
+    
+}
+#primer{
+    font-size:22px;
+    
+}
+a{
+    color:red;
+    border-width:10px;
+    border-color:black;
+    border-style:solid;
+     border-radius:20px;
+     font-size:20px;
+   background-color:blue;
+    text-decoration:none;
+   padding:10px 20px;
+   margin:10px;
+   display:inline-block;
+} 
+
+
+#precios{
+    font-size:40px;
+    
+    
+    
+}
+
+
+#fin{
+    background-color:#CFFFBF;
+    padding:10px;
+    overflow:hidden;
+}
+
+.icono{
+    width:30px;
+    float:left;
+    
+}
+
+#icono{
+    border:none;
+    background:none;
+    padding:none;
+    margin:none;
+    float:right;
+}
+.menu{
+   color:#000;
+   float:right;
+   border:none;
+    background:none;
+  list-style:none;
+   display:flex;
+  font-size:;
+  font-family:;
+  border-width:3px;
+    border-color:black;
+    border-style:solid;
+     border-radius:20px;
+     
+}
+
+li{
+    
+    
+    
+}
+
+#menu{
+    	list-style:none;
+     float:center;
+    padding:10px 20px;
+   margin:2px;
+   display:block;
+   margin:1px;
+    padding:1px;
+        background-color:blue;
+        overflow:hidden;
+}
+
+.principio{
+    width:70px;
+    float:left;
+    
+}
+
+.inicio-menu{
+    width:20px;
+    background-color:none;
+    border:none;
+   display:none;
+}
+
+#btn-menu{
+    display:none;
+    
+    
+}
+
+
+.inicio-menu:hover{
+    cursor:pointer;
+    
+    
+}
+
+@media(max-width: 760px){
+    .inicio-menu{
+        display:block;
+        
+    }
+    
+    #menu{
+        position:absolute;
+        background:blue;
+        
+    }
+    .menu{
+     flex-direction: column
+    }
+    
+}
+h2{
+    font-size:35px;
+    font-family:Arial;
+    
+}
+p{
+    font-size:20px;
+    word-spacing:10px;
+    
+}
+
+#fin-gif{
+    width:600px;
+    float:left;
+    
+}
+#sobrem{
+     overflow:hidden;
+}
